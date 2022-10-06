@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="nflows",
+    name="matts-nflows",
     version=VERSION,
     description="Normalizing flows in PyTorch.",
     long_description=long_description,
